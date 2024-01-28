@@ -20,18 +20,28 @@
     <title>Frontend Mentor | Sunnyside agency landing page</title>
   </head>
   <body>
-    <nav>
-      <img src="/images/logo.svg" alt="" class="logo" />
-      <ul>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Services</a></li>
-        <li><a href="#">Projects</a></li>
+    <nav class="navbar">
+      <img
+        src="/images/logo.svg"
+        alt=""
+        class="navbar--logo"
+        onclick="window.location.href='#hero'"
+      />
+      <ul class="navbar--list">
+        <li class="navbar--list__element">
+          <a class="navbar--list__link" href="#">About</a>
+        </li>
+        <li class="navbar--list__element">
+          <a class="navbar--list__link" href="#">Services</a>
+        </li>
+        <li class="navbar--list__element">
+          <a class="navbar--list__link" href="#">Projects</a>
+        </li>
+        <button class="navbar--button">CONTACT</button>
       </ul>
-      <button>CONTACT</button>
     </nav>
     <header>
-      <div class="hero">
-        <img src="/images/desktop/image-header.jpg" alt="" />
+      <div class="hero" id="hero">
         <h1>WE ARE CREATIVES</h1>
         <img src="/images/icon-arrow-down.svg" alt="" />
       </div>

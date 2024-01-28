@@ -1,4 +1,7 @@
 @import './variables/font';
 @import './variables/colors';
+@import './variables/reset';
 
 /* Components */
+@import './components/nav';
+@import './components/hero';
